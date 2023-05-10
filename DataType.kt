@@ -1,15 +1,14 @@
 package basics
     fun main() {
 
-        // Immutable
-
+        // Immutable variables.
         val message = " Rishika"
         print(message)
         
         // hence it is showing error coz, val is immutable once defined cann't be changed.
-        //  message = "Riya"
-
-        // Mutable
+        //  message = "Riya"        
+        
+        // Mutable variables.        
         var message1 = "  Hello Kotlin"
         println(message1)   // It will print "Hello Kotlin" on console.
 
